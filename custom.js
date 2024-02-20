@@ -12,7 +12,11 @@ $(function () {
         }
         dom.appendChild(p);
     });
-    $("#texts-container").append(dom.innerHTML);
+   // $("#texts-container").append(dom.innerHTML);
+        setTimeout(function() {
+        $("#texts-container").append(dom.innerHTML);
+
+        }, 5000);
 });
 
 $(function () {
